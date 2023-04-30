@@ -59,26 +59,13 @@ import java.util.List;
             };
         }
 
-/*        @Override
-        public int compareTo(StudentGroup o) {
-            return 0;
-        }*/
+    /**Переопределение компаратора для StudentGroup
+     * @param o the object to be compared.
+     * @return Integer (-1.0.1)
+     */
         @Override
         public int compareTo(StudentGroup o) {
             return Integer.compare(students.size(),o.students.size());
-/*            // System.out.println(super.getFirstName() + " - " + o.getFirstName());
-            if (students.size() == o.getStudents())) {
-                if (this.studentID == o.studentID) {
-                    return 0;
-                }
-                if (this.studentID < o.studentID) {
-                    return -1;
-                }
-                return 1;
-            }
-            if (super.getAge() < o.getAge()) {
-                return -1;
-            }
-            return 1;*/
+
         }
     }
