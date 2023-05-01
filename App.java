@@ -168,8 +168,6 @@ public class App {
         stud.add(s5);
         stud.add(s6);
 
-        /**Создание экземпляра контроллера TeacherController*/
-        TeacherController teacherController = new TeacherController();
 
         /**Выводим в цикле список учетилей*/
         for (Teacher i:  teach) {
